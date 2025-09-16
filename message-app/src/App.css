@@ -1,42 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #1f1f1f, #2c2c2c, #525252, #101010);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-position: 100% 50%;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  100% {
+    background-position: 0% 50%;
   }
 }
 
 .card {
-  padding: 2em;
+  width: 100%;
+  max-width: 480px;
+  background: #1f1f1f;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
-.read-the-docs {
-  color: #888;
+.card h2 {
+  text-align: center;
+  margin-bottom: 24px;
 }
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.card input,
+.card textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2b2b2b;
+  color: #fff;
+  font-size: 14px;
+}
+
+.card input:focus,
+.card textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.card button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: #45a049;
+}
+
+.card button:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+.card .back-btn {
+  background: #222;
+  border: 1px solid #555;
+  margin-bottom: 16px;
+}
+

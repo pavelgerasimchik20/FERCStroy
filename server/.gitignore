@@ -1,3 +1,6 @@
 node_modules
 messages.db
 .env
+logs/
+!logs/.gitkeep
+*.log

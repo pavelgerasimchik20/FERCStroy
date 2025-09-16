@@ -3,7 +3,7 @@ export default function Welcome({ onNext }: { onNext: () => void }) {
     <div>
       <h1>Здравствуйте!</h1>
       <p style={{
-        fontSize: ""
+        fontSize: "1.2em"
       }}>
         Добро пожаловать! Нажмите кнопку ниже, чтобы перейти к форме и отправить
         сообщение.
