@@ -10,3 +10,8 @@
 [2025-09-16T11:16:50.221Z] [INFO] Server started on => port 4000
 [2025-09-16T11:56:49.574Z] [INFO] Incoming message submission attempt {"ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","payload":{"name":"Pavel","phone":"+375292330546","message":"Привет как дела пока не родила..."}}
 [2025-09-16T11:56:49.584Z] [INFO] Message saved successfully {"messageId":1,"name":"Pavel","phone":"+375292330546"}
+[2025-09-16T12:44:56.686Z] [INFO] Server started on port 4000
+[2025-09-16T12:46:27.823Z] [INFO] Server started on port 4000
+[2025-09-16T12:48:32.209Z] [INFO] Server started on port 4000
+[2025-09-16T12:50:11.022Z] [INFO] Incoming message submission attempt {"ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","payload":{"name":"Aaron","phone":"+375292215725","message":"Shalom ma nishma..."}}
+[2025-09-16T12:50:11.036Z] [INFO] Message saved successfully {"messageId":2}
